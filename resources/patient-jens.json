@@ -1,6 +1,5 @@
 {
     "resourceType": "Patient",
-    "id": "3344",
     "meta": {
       "security": [
         {
@@ -31,7 +30,6 @@
     ],
     "identifier": [
       {
-        "use": "official",
         "system": "urn:oid:2.16.578.1.12.4.1.4.1",
         "value": "28038203977"
       }
@@ -39,8 +37,6 @@
     "active": true,
     "name": [
       {
-        "use": "official",
-        "text": "Jens Aase",
         "family": "Aase",
         "given": [
           "Jens"
@@ -57,7 +53,6 @@
           "code": "M",
           "display": "Married"
         }
-      ],
-      "text": "Married"
+      ]
     }
   }
