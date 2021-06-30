@@ -1,0 +1,21 @@
+{
+    "resourceType": "CodeSystem",
+    "url": "http://mitt-domene.no/fhir/CodeSystem/klareringsnivaa",
+    "title": "Norske klareringsnivå",
+    "status": "draft",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "K",
+            "display": "Konfidensielt"
+        },
+        {
+            "code": "H",
+            "display": "Hemmelig"
+        },
+        {
+            "code": "SH",
+            "display": "Strengt hemmelig"
+        }
+    ]
+}
