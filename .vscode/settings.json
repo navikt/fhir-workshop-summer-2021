@@ -2,7 +2,8 @@
     "json.schemas": [
         {
             "fileMatch": [
-                "/resources/*.json"
+                "/resources/*.json",
+                "/resources/*/*.json"
             ],
             "url": "https://www.hl7.org/fhir/fhir.schema.json"
         }
