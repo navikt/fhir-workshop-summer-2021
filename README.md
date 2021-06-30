@@ -47,9 +47,11 @@ questionnaireresponse-workshop-skjema skal ha en referanse (subject) til en av P
 2. Gjør et søk som henter QuestionnaireResponsen inkludert den refererte Patient ressursen i 1 operasjon. (se _include i spek.).
 
 ### 5. Lag en Questionnaire ressurs
-Lag ditt eget spørreskjema, finn på tema\spørsmål selv. Skjemaet skal inneholde minst 5 spørsmål av forskjellige typer, prøv å eksprimenter litt med f.eks required, repeats, enableWhen og egne CodeSystem og\eller ValueSet. Skjemaet må kunne valideres og besvares.
+Lag ditt eget spørreskjema, finn på tema\spørsmål selv. Skjemaet skal inneholde minst 5 spørsmål av forskjellige typer, prøv å eksprimenter med f.eks required, repeats, enableWhen og CodeSystem og\eller ValueSet. Skjemaet må kunne valideres og besvares.
 
-Ved å åpne dette repoet i Visual Studio Code kan dere få hjelp av IntelliSense når dere jobber med ressursene (da brukes json-skjemaet definert i /.vscode/settings.json).
+CodeSystem/ValueSet kan dere lage selv, eller velge blant [de som er definert av HL7](https://www.hl7.org/fhir/terminologies-v3.html) og allerede tilgjengelige i HAPI sin validator.
+
+Ved å åpne dette repoet i Visual Studio Code kan dere få hjelp av IntelliSense når dere jobber med ressursene.
 
 ### 6. Lag QuestionnaireResponse ressurs(er)
 Del Questionnaire og nødvendige terminology-ressurser (CodeSystem og ValueSet) med hverandre og lag matchende QuestionnaireResponse som lar seg validere.
